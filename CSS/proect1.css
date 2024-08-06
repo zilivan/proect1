@@ -151,7 +151,7 @@ transition:transform 0.5s,
           filter 0.5s;
 }
 
-.nav-list__item:before{
+.nav-list:before{
 	display: none;
 	content: "";
 	height:32px;
@@ -160,10 +160,10 @@ transition:transform 0.5s,
 	border-right: 4px solid  rgba(65, 246, 215, 1);
 	border-radius: 15px;
 }
-.nav-list__item:hover.nav-list__item:before{
+.nav-list:hover.nav-list:before{
 	display: block;
 }
-.nav-list__item:hover a{
+.nav-list:hover a{
 	color: grey;
 	margin-left: 12px;
 } 
